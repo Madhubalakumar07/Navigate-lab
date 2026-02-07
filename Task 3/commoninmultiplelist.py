@@ -1,0 +1,5 @@
+lst1 = list(map(int, input().split()))
+lst2 = list(map(int, input().split()))
+lst3 = list(map(int, input().split()))
+common = set(lst1) & set(lst2) & set(lst3)
+print(common)
