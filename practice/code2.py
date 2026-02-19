@@ -3,6 +3,8 @@ class engine(ABC):
     @abstractmethod
     def start(self):
         print("hey rider")
+    def stop(self):        
+        print("stop the engine")
 class car(engine):
     def start(self):
         return "Its a v12 engine"
@@ -13,3 +15,5 @@ m5 = car()
 gt = bike()
 print(m5.start())
 print(gt.start())
+m5.stop()
+gt.stop()
