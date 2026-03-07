@@ -12,7 +12,7 @@ movies = pd.DataFrame({
 })
 
 plt.figure()
-plt.scatter(movies["Budget (Million USD)"], movies["Revenue (Million USD)"])
+plt.bar(movies["Budget (Million USD)"], movies["Revenue (Million USD)"])
 plt.xlabel("Movie Budget (Million USD)")
 plt.ylabel("Movie Revenue (Million USD)")
 plt.title("Relationship Between Movie Budget and Revenue")
