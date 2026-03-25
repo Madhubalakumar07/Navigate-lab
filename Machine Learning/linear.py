@@ -5,12 +5,12 @@ import matplotlib.pyplot as plt
 data = pd.read_excel("D:\\Navigate lab\\Datasets\\sample.xlsx")
 print(data.head())
 lr = LinearRegression()
-x = data[['price']]
-y = data['weight']
+x = data[['Price_USD']]
+y = data['Carat']
 lr.fit(x, y)
-print(lr.predict(pd.DataFrame({'price':[25000]})))
+print(lr.predict(pd.DataFrame({'Price_USD':[25000]})))
 plt.scatter(x, y)
 plt.plot(x, lr.predict(x))
-plt.xlabel("Weight")
-plt.ylabel("Price")
+plt.xlabel("Price (USD)")
+plt.ylabel("Carat")
 plt.show()
