@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import *
 # Load dataset
 data = pd.read_csv(r"D:\Navigate lab\Datasets\titanic.csv")
 data.drop(['PassengerId', 'Name', 'Ticket', 'Cabin', 'Embarked', 'SibSp'], axis=1, inplace=True)
@@ -16,3 +17,5 @@ X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=
 model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
 print(f"Accuracy on test set: {model.score(X_test, y_test):.2f}")
+acc = accuracy_score(y_test, model.predict(X_test))
+print(f"Accuracy: {acc:.2f}")
