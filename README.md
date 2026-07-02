@@ -64,8 +64,7 @@ The goal is to strengthen both theoretical understanding and practical skills th
 
 **Frameworks:**
 
-* TensorFlow / Keras *(if used)*
-* PyTorch *(if used)*
+* TensorFlow / Keras 
 
 ---
 
@@ -85,7 +84,7 @@ The goal is to strengthen both theoretical understanding and practical skills th
 * Pandas
 * Matplotlib / Seaborn
 * Scikit-learn
-* (Optional) TensorFlow / PyTorch
+* TensorFlow
 * OpenCV
 
 ---
@@ -105,7 +104,7 @@ The goal is to strengthen both theoretical understanding and practical skills th
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Madhubalakumar07/Navigate-lab.git
+   git clone https://github.com/Madhubalakumar07/AI --- Training.git
    ```
 
 2. Navigate into the project:
