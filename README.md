@@ -104,7 +104,7 @@ The goal is to strengthen both theoretical understanding and practical skills th
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Madhubalakumar07/AI --- Training.git
+   https://github.com/Madhubalakumar07/AI---Training.git
    ```
 
 2. Navigate into the project:
